@@ -1,0 +1,18 @@
+
+Without Authorization: 
+GET http://localhost:3000/products
+
+###
+
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"benson"
+}
+
+###
+
+GET http://localhost:3000/products_auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYmVuc29uIiwiaWF0IjoxNzA1MTg1NDUxfQ.j5cyr_Law6_EUljmnxaxaF4-EIixhYaUiEoD5sTQfAc 
