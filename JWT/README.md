@@ -14,6 +14,7 @@
 
 - middleware: contains auth.js which contains the middleware function to authenticate API requests
 - server.js: code required for the entire task, general naming convention "index.js / server.js"
+- postman_requests.json - download and import this to postman to run the API calls locally
 
 ## Code Explained
 
